@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="font-sans text-purple-900">
+<body class="font-sans text-black">
 
   <!-- Header -->
 
@@ -35,7 +35,7 @@
         <b>HOSPITALITY.</b>
       </h1><br><br>
       <p class="mb-6 text-lg">Uncover breathtaking landscapes, rich cultural heritage and unforgettable hospitality-Your
-        next <b>ADVENTURE</b> begins here.</p>
+        next <b><span text-2xl font-bold text-red>ADVENTURE</span></b> begins here.</p>
       <button class="bg-blue-300 hover:bg-amber-200 text-black font-bold py-2 px-4 rounded">Click Me To
         Explore</button>
     </div>
@@ -45,7 +45,7 @@
   </section>
 
   <!-- Services Section -->
-  <section class="px-6 py-12 bg-pink-200">
+  <section class="px-6 py-4 bg-pink-200">
     <h2 class="text-3xl font-bold text-center mb-2">Our Services</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
@@ -71,9 +71,9 @@
   </section>
 
   <!-- Team Section -->
-  <section class="px-6 py-6 bg-white">
-    <div class="p-8 bg-blue-100">
-      <h2 class="text-3xl font-bold mb-6 text-center">Our Team Leaders</h2>
+  <section class="px-6 py-6 bg-white mb-4">
+    <div class="p-4 bg-blue-100">
+      <h2 class="text-3xl font-bold mb-4 text-center">Our Team Leaders</h2>
 
       <div class="flex space-x-6 overflow-x-auto gap-12">
         <div class="bg-purple-200 p-6 rounded shadow-md text-center gap-8 ">
@@ -99,6 +99,26 @@
       </div>
     </div>
   </section>
+
+  <!-- Newsletter Section -->
+  <section class="bg-yellow-50 p-4 rounded text-center mx-8 mt-2">
+    <h2 class="text-2xl font-bold">Travel Smart. Stay Updated!</h2>
+
+    <div>
+      <p class="text-gray-700 mb-4 font-semibold">
+        Subscribe to our newsletter for exclusive tour deals, travel tips, and logistics updates. Be the first to know
+        about our new destinations and promotions!
+      </p>
+
+      <form class="flex flex-col sm:flex-row gap-2 justify-center">
+        <input type="email" name="email" placeholder="Enter your email address" class="p-2 rounded border">
+        <button class="bg-amber-700 hover:bg-white text-black font-bold py-2 px-4 w-center sm:w-auto"
+          onclick="alert('Thank you for subscribing to Our Newsletter')">Subscribe</button>
+      </form>
+      
+    </div>
+  </section>
+
 
   <!-- Footer -->
   <footer class="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 bg-blue-300 text-black">
